@@ -12,9 +12,13 @@ Liu, Yanli, Yunbei Xu, and Wotao Yin. "Acceleration of primal-dual methods by pr
 Acknowledgement
 
 In our implement, we use the following packages developed by other researchers:
-The "TFOCS" package by Becker et al. (https://github.com/cvxr/TFOCS);
-The "AIR Tools II" package by Hansen and Jorgensen (https://github.com/jakobsj/AIRToolsII);
-The "toolbox_signal" and "toolbox_general" packages by Peyre (https://github.com/gpeyre/numerical-tours/tree/master/matlab);
+
+the "TFOCS" package by Becker et al. (https://github.com/cvxr/TFOCS);
+
+the "AIR Tools II" package by Hansen and Jorgensen (https://github.com/jakobsj/AIRToolsII);
+
+the "toolbox_signal" and "toolbox_general" packages by Peyre (https://github.com/gpeyre/numerical-tours/tree/master/matlab).
+
 We also thank Dr. Wuchen Li for sharing his codes for the Earth mover's distance experiment (http://www.math.snu.ac.kr/~ernestryu/code/OMT/OMT_code.zip).
 
 ****************************************************
