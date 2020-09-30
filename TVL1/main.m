@@ -208,8 +208,8 @@ for i=1:maxiter
     end
     x = xnew;
 end
-time_BCD = toc
-i
+time_BCD = toc;
+
 h3 = plot(log10(Fig3));
 set(h3, 'LineWidth', 1);
 set(h3, 'color', 'r');
