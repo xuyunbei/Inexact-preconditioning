@@ -7,4 +7,4 @@ the "toolbox_signal" and "toolbox_general" packages by Peyre (https://github.com
 
 Please unzip the packages before running our codes.
 ************************
-The input image in the TV-L$^1$ experiment (Sec. 4.2) is available at http://www.hlevkin.com/TestImages/man.bmp.
+The input image in the TV-L$^1$ experiment (Sec. 4.2) comes from http://www.hlevkin.com/TestImages/man.bmp.
