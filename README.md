@@ -11,7 +11,7 @@ Liu, Yanli, Yunbei Xu, and Wotao Yin. "Acceleration of primal-dual methods by pr
 ***************************************************
 Acknowledgement
 
-In our implement of the algorithms, we use the following packages developed by other researchers:
+In our implement, we use the following packages developed by other researchers:
 
 the "TFOCS" package by Becker et al. (https://github.com/cvxr/TFOCS);
 
