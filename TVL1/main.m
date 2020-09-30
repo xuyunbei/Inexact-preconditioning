@@ -262,7 +262,7 @@ tfocs_opts.maxIts = Inf;
 tfocs_opts.tol=1e-5; % stopping criteria of inner iteration
 tfocs_opts.printEvery = 0;
 tfocs_opts.L0 = 8*tau;
-inneriter=[];
+totalinner=0;
 
 tic;
 for i=1:maxiter    
@@ -273,7 +273,7 @@ for i=1:maxiter
     %y = SurrogateFISTA(tauBBT, -B*x_bar, ProxFC, y, 1/sigma, 2);
     sub_quad = @(z) sub_smooth(tauBBTfunc, -B*x_bar, y, z);
     [y, tfocs_out] = tfocs_N83(sub_quad, [], proj_box(-1, 1 ), y, tfocs_opts);
-    inneriter(i)=tfocs_out.niter;
+    totalinner=tfocs_out.niter+totalinner;
     % monitor the decay of the energy
     Fig_quasiexact(i) = abs(f(xnew)-f_end)/f_end;
     if Fig_quasiexact(i)<tol
