@@ -1,4 +1,4 @@
-TE,P% TV-L1
+% TV-L1
 clear all
 M=1024;
 N=1024;
