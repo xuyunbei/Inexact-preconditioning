@@ -1,4 +1,4 @@
-# Inexact-preconditioning
+# Inexact Preconditioning for PDHG and ADMM
 
 Codes for the paper "Acceleration of primal-dual methods by preconditioning and simple subproblem procedures."
 
