@@ -41,7 +41,7 @@ Diag(:,:,2)=exp(-beta*(abs(I(:,[2:n,1],1)-I(:,:,1))+...
 lambda = 2;
 alpha = 1/lambda;
 
-%% CVX
+%% obtain the optimal solution
 [B1,B2]=generate_B_Neumann(m,n);
 B=[B2;B1];
 d1=reshape(Diag(:,:,1),[m*n,1]);
@@ -49,22 +49,23 @@ d2=reshape(Diag(:,:,2),[m*n,1]);
 w_r=reshape(w,[m*n,1]);
 
 
+load solution_cvx; %optimal solution
+load optval; %optimal function value
 
-
- cvx_solver gurobi 
- cvx_begin 
-     variable x(m*n)
-     minimize norm(d1.*(B2*x),1)+norm(d2.*(B1*x),1)+alpha*sum(x.*w_r)
-     subject to
-              0<=x<=1
- cvx_end 
- optval = cvx_optval;
- solution_cvx=x;
+ %cvx_solver gurobi 
+ %cvx_begin 
+     %variable x(m*n)
+     %minimize norm(d1.*(B2*x),1)+norm(d2.*(B1*x),1)+alpha*sum(x.*w_r)
+     %subject to
+              %0<=x<=1
+ %cvx_end 
+ %optval = cvx_optval;
+ %solution_cvx=x;
  
  f=reshape(x,m,n);imageplot(f);
  optval=norm(d1.*(B2*x),1)+norm(d2.*(B1*x),1)+alpha*sum(x.*w_r)
 
-%%
+%% a function to see the segment outcome
 % clf;
 % imageplot((f).*I+ones(m,n)-f);
 
