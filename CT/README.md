@@ -10,9 +10,9 @@ the "AIR Tools II" package by Hansen and Jorgensen (https://github.com/jakobsj/A
 
 2. Open Matlab
 
-3. Run set_up.m
+3. Run set_up.m to load the data and the optimal function value
 
-4. There are 5 algorithms:
+4. There are 6 algorithms to test:
 
    run PDHG.m to test the vanilla PDHG;
    
