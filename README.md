@@ -23,7 +23,7 @@ We also thank Dr. Wuchen Li for sharing his codes for the Earth mover's distance
 
 ****************************************************
 
-Data Resource
+Data Resources
 1. The input image in the graph cut experiment (Sec. 4.1) comes from https://www.shutterstock.com/image-photo/many-blue-hydrangea-flowers-growing-garden-174945887.
 2. The input image in the TV-L1 experiment (Sec. 4.2) comes from http://www.hlevkin.com/TestImages/man.bmp.
 3. The input image in the Earth mover's distance experiment (Sec. 4.3) comes from the published article Li et al. (2018) and its supplementary code (http://www.math.snu.ac.kr/~ernestryu/code/OMT/OMT_code.zip).
