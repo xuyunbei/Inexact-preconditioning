@@ -232,8 +232,8 @@ for i=1:niter
         break;
     end
 end
-time_pre_BCD=toc
-outiter_pre=i
+time_pre_BCD=toc;
+outiter_pre=i;
 % Fig_pre_BCD(i)
 h2=semilogy(Fig_pre_BCD);
 set(h2, 'LineWidth', 2);
