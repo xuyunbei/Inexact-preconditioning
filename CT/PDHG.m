@@ -1,5 +1,5 @@
 %% PDHG
-% one should expect about 3663 seconds to finish it.
+% one may need more than an hour to finish it.
 x = zeros(cA,1);
 p = zeros(rA,1);
 q = zeros(2*cA,1);
