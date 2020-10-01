@@ -37,7 +37,6 @@ for i=1:niter
     fh=f+tau1*Div(u_w)-tau1*alpha*w;
     f_new=ProxG(fh,tau1);
     u_w_old = u_w;
-    theta = 0.1;
     uh_w=2*u_w+sigma1*Grad(2*f_new-f); % Grad = -Div^T, 
     uh_w(:,:,2)=uh_w(:,:,2)-u_w(:,array1,2)-u_w(:,array2,2);
     uh_w(:,:,1)=uh_w(:,:,1)-u_w(ar1,:,1)-u_w(ar2,:,1);
