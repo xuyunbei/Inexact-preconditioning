@@ -1,5 +1,5 @@
 %% PDHG
-% one may need more than an hour to finish it.
+% one may need more than an hour (3600s) to finish it.
 x = zeros(cA,1);
 p = zeros(rA,1);
 q = zeros(2*cA,1);
