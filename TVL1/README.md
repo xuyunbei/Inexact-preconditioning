@@ -10,7 +10,7 @@ The input image in the TV-L1 experiment comes from http://www.hlevkin.com/TestIm
 
 ## Instruction
 
-1. Unzip the four zip files here in this folder.
+1. Unzip the three zip files here in this folder.
 
 2. Open Matlab
 
