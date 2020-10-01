@@ -14,4 +14,20 @@ The input image in the graph cut experiment (Sec. 4.1) is available at https://w
 
 3. Run set_up.m 
 
-4. 
+4. There are 7 algorithms to test:
+
+run PDHG.m to test the vanilla PDHG;
+
+run DP_PDHG.m to test the diagonal-preconditioned PDHG;
+
+run iPrePDHG_BCD.m to test iPrePDHG with BCD as the inner loops;
+
+run iPrePDHG_FISTA.m to test iPrePDHG with FISTA as the inner loops;
+
+run ADMM_quasiexact to test PrePDHG with nearly exact solving of subproblems;
+
+run APDHG to test accelerated PDHG;
+
+run ALADMM to test accelrated (primal) linearized ADMM.
+
+If an algorithm requires more than 500s to finish, we will add annotation in the beginning of its corresponding file.
