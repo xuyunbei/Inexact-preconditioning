@@ -8,6 +8,6 @@ the "toolbox_signal" and "toolbox_general" packages by Peyre (https://github.com
 The input image in the TV-L1 experiment (Sec. 4.2) comes from http://www.hlevkin.com/TestImages/man.bmp.
 
 ## Instructions
-1. Unzip the three zip files here in this folder. 
+1. Unzip the five zip files here in this folder (two of them stores data and three of them are packages). 
 2. Open Matlab
 3. Run main.m
