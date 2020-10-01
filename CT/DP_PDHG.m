@@ -1,5 +1,5 @@
 %% Diagonal Preconditioned PDHG
-% One should expect about 714s to finish it
+% One may need to wait >700s to finish it
 x = zeros(cA,1);
 p = zeros(rA,1);
 q = zeros(2*cA,1);
