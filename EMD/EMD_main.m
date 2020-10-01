@@ -1,7 +1,7 @@
 %% Earth Mover's Distance
 % This file contains implement of three algorithms: PDHG, APDHG and
 % iPrePDHG. Each algorithm has 100000 outer iterations and requires 
-% near 300 seconds to finish.
+% about 300 seconds to finish.
 % min_m max_Phi <div(m),Phi>+||m||_1,2-<rho0-rho1,Phi>
 clear all
 M = 256;
