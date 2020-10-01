@@ -5,7 +5,7 @@ the "TFOCS" package by Becker et al. (https://github.com/cvxr/TFOCS);
 
 the "toolbox_signal" and "toolbox_general" packages by Peyre (https://github.com/gpeyre/numerical-tours/tree/master/matlab).
 
-The input image in the graph cut experiment (Sec. 4.1) is available at https://www.shutterstock.com/image-photo/many-blue-hydrangea-flowers-growing-garden-174945887.
+The input image in the graph cut experiment is available at https://www.shutterstock.com/image-photo/many-blue-hydrangea-flowers-growing-garden-174945887.
 
 ## Instruction
 1. Unzip the four zip files here in this folder. 
@@ -16,18 +16,18 @@ The input image in the graph cut experiment (Sec. 4.1) is available at https://w
 
 4. There are 7 algorithms to test:
 
-run PDHG.m to test the vanilla PDHG;
+     run PDHG.m to test the vanilla PDHG;
 
-run DP_PDHG.m to test the diagonal-preconditioned PDHG;
+     run DP_PDHG.m to test the diagonal-preconditioned PDHG;
 
-run iPrePDHG_BCD.m to test iPrePDHG with BCD as the inner loops;
+     run iPrePDHG_BCD.m to test iPrePDHG with BCD as the inner loops;
 
-run iPrePDHG_FISTA.m to test iPrePDHG with FISTA as the inner loops;
+     run iPrePDHG_FISTA.m to test iPrePDHG with FISTA as the inner loops;
 
-run ADMM_quasiexact to test PrePDHG with nearly exact solving of subproblems;
+     run ADMM_quasiexact to test PrePDHG with nearly exact solving of subproblems;
 
-run APDHG to test accelerated PDHG;
+     run APDHG to test accelerated PDHG;
 
-run ALADMM to test accelrated (primal) linearized ADMM.
+     run ALADMM to test accelrated (primal) linearized ADMM.
 
-If an algorithm requires more than 500s to finish, we will add annotation in the beginning of its corresponding file.
+  If an algorithm requires more than 500s to finish, we will add annotation in the beginning of its corresponding file.
