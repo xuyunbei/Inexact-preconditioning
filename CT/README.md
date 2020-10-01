@@ -26,4 +26,4 @@ the "AIR Tools II" package by Hansen and Jorgensen (https://github.com/jakobsj/A
    
    run ALADMM to test accelrated (primal) linearized ADMM.
    
-For all algorithms except our proposed algorithm (iPrePDHG_BCD.m), their running times surpass 300s (we add annotation at the beginning of these files.) Our algorithm should be able to solve the problem in 8 seconds.
+If an algorithm requires more than 500s to finish, we will add annotation in the beginning of its corresponding file.
