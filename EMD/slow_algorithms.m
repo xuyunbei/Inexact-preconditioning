@@ -39,6 +39,8 @@ set(h_dp, 'LineStyle', '-');
 m=zeros(2*MN,1);
 Phi=zeros(MN,1);
 niter=100000;
+mu=3e-6; % primal step size
+tau=2/(mu*(N-1)*(N-1));  % dual step size
 Energy_innerfista=[];
 Error1_innerfista=[];
 Error2_innerfista=[];
@@ -68,7 +70,9 @@ set(h_innerfista, 'LineStyle', '-');
 %% ADMM(PrePDHG) with S = FISTA as in tfocs (with backtracking), inner loop error<=1e-4
 m=zeros(2*MN,1);
 Phi=zeros(MN,1);
-niter=200;
+niter=100000;
+mu=3e-6; % primal step size
+tau=2/(mu*(N-1)*(N-1));  % dual step size
 Energy_ADMMexact=[];
 Error1_ADMMexact=[];
 Error2_ADMMexact=[];
