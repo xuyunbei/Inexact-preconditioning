@@ -4,10 +4,10 @@ Codes for the paper "Acceleration of primal-dual methods by preconditioning and 
 https://arxiv.org/abs/1811.08937
 
 Authors: 
-Liu, Yanli, Yunbei Xu, and Wotao Yin. 
+Yanli Liu, Yunbei Xu, and Wotao Yin. 
 
 Reference: 
-Liu, Yanli, Yunbei Xu, and Wotao Yin. "Acceleration of primal-dual methods by preconditioning and simple subproblem procedures." arXiv preprint arXiv:1811.08937 (2018).
+Yanli Liu, Yunbei Xu, and Wotao Yin. "Acceleration of primal–dual methods by preconditioning and simple subproblem procedures." Journal of Scientific Computing 86.2 (2021): 21.
 
 ***************************************************
 Acknowledgement
